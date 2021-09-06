@@ -12,15 +12,15 @@ A clear and concise description of what the issue goes here.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Click on '...'
-2. Build '....'
-3. See error
+1. Load attached save '...'
+2. Do xxx '....'
+3. Strange thing happens '...'
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
 **Additional context**
- - Game version: [e.g. 0.2.1, see main menu]
+ - Game version: [e.g. 0.2.1a, see main menu]
 
 **Attachments**
-If applicable, add screenshots, logs, or save files to help explain the issue. You can find them in your `Documents %userprofile%/Documents/CaptainOfIndustry/`
+If applicable, add save files, screenshots, or log files to help explain the issue. You can find them in your Documents (`%userprofile%/Documents/CaptainOfIndustry/`)
