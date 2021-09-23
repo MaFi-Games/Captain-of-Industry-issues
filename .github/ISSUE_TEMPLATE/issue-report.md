@@ -1,6 +1,6 @@
 ---
 name: Issue report
-about: Create a report to help us improve
+about: Create an issue report to help us improve the game!
 title: ''
 labels: ''
 assignees: ''
@@ -23,4 +23,4 @@ A clear and concise description of what you expected to happen.
  - Game version: [e.g. 0.2.1a, see main menu]
 
 **Attachments**
-If applicable, add save files, screenshots, or log files to help explain the issue. You can find them in your Documents (`%userprofile%/Documents/CaptainOfIndustry/`)
+If applicable, add save files (zipped), screenshots, or log files to help explain the issue. You can find them in your Documents (`%userprofile%/Documents/CaptainOfIndustry/`). You might need to ZIP the attached files.
