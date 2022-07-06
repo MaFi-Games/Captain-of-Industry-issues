@@ -1,4 +1,4 @@
-name: Issue report
+name: Issue report form
 description: File an issue report
 body:
   - type: markdown
