@@ -43,4 +43,4 @@ body:
           You can find them in your Documents (`%userprofile%\Documents\Captain Of Industry\`).
           If your issue is severe, like a crash or rendering glitches, also include Unity logs from
           `%USERPROFILE%\AppData\LocalLow\Mafi Games\Captain of Industry\`.
-      placeholder: You can attach files by clicking this area to highlight it and then dragging files in.
+      placeholder: Attach files by clicking this area to highlight it and then dragging files in.
