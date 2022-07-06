@@ -1,7 +1,5 @@
 name: Issue report
 description: File an issue report
-labels: []
-assignees:
 body:
   - type: markdown
     attributes:
