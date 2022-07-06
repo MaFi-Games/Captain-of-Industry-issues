@@ -1,5 +1,5 @@
 name: Issue report form
-description: File an issue report using a predefined form
+description: Create an issue report using a simple form
 body:
   - type: markdown
     attributes:
