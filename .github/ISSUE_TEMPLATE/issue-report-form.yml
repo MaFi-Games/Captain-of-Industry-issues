@@ -1,0 +1,46 @@
+name: Issue report
+description: File an issue report
+title: ""
+labels: []
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for taking the time to fill out this bug report!
+  - type: textarea
+    id: issue
+    attributes:
+      label: Issue description
+      description: Provide a clear and detailed description of the issue:
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: Explain what you expected to happen:
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Reproduction steps
+      description: Describe steps to reproduce the issue:
+      placeholder: |
+        1. Load attached save '...'
+        2. Do xxx '....'
+        3. Strange thing happens '...'
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+      placeholder: v0.4.7c
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: >
+        If applicable, attach a save file (zipped), screenshots, or log files to help us resolve the issue.
+        You can find them in your Documents (`%userprofile%\Documents\Captain Of Industry\`).
+        If your issue is severe, like a crash or rendering glitches, also include Unity logs from
+        `%USERPROFILE%\AppData\LocalLow\Mafi Games\Captain of Industry\`.
