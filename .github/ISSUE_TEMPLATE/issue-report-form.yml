@@ -33,11 +33,15 @@ body:
       label: Game version
       placeholder: v0.4.7c
     validations:
-      required: false
-  - type: markdown
-    attributes:
-      value: >
+      required: true
+  - type: textarea
+  attributes:
+    label: Attachments
+    description: >
         If applicable, attach a save file (zipped), screenshots, or log files to help us resolve the issue.
         You can find them in your Documents (`%userprofile%\Documents\Captain Of Industry\`).
         If your issue is severe, like a crash or rendering glitches, also include Unity logs from
         `%USERPROFILE%\AppData\LocalLow\Mafi Games\Captain of Industry\`.
+    placeholder: You can attach files by clicking this area to highlight it and then dragging files in.
+  validations:
+    required: false
