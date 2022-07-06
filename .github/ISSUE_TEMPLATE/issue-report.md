@@ -1,6 +1,6 @@
 ---
 name: Issue report
-about: Create an issue report to help us improve the game!
+about: Create an issue report using a classic text-based input.
 title: ''
 labels: ''
 assignees: ''
