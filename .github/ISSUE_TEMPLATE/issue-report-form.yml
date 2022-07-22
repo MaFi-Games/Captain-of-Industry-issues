@@ -40,6 +40,6 @@ body:
       label: Attachments
       description: >
           If applicable, attach a save file (zipped), screenshots, or log files to help us resolve the issue.
-          ###Windows Users: You can find them in: ```%userprofile%\Documents\Captain Of Industry\```. If your issue is severe, like a crash or rendering glitches, also include Unity logs from: ```%USERPROFILE%\AppData\LocalLow\Mafi Games\Captain of Industry\```.
-          ###Linux Users: You can find them in: ```~/.steam/steam/steamapps/compatdata/<app-ID>/pfx/drive_c/users/steamuser/Documents/Captain of Industry/Logs```. For more serious issues, please include Unity logs from: ```~/.steam/steam/steamapps/compatdata/<app-ID>/pfx/drive_c/users/steamuser/AppData/LocalLow/Mafi Games/Captain of Industry```.
+          Windows Users: You can find them in: ```%userprofile%\Documents\Captain Of Industry\```. If your issue is severe, like a crash or rendering glitches, also include Unity logs from: ```%USERPROFILE%\AppData\LocalLow\Mafi Games\Captain of Industry\```.
+          Linux Users: You can find them in: ```~/.steam/steam/steamapps/compatdata/<app-ID>/pfx/drive_c/users/steamuser/Documents/Captain of Industry/Logs```. For more serious issues, please include Unity logs from: ```~/.steam/steam/steamapps/compatdata/<app-ID>/pfx/drive_c/users/steamuser/AppData/LocalLow/Mafi Games/Captain of Industry```.
       placeholder: Attach files by clicking this area to highlight it and then dragging files in.
