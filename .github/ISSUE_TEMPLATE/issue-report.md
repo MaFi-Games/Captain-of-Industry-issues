@@ -23,4 +23,4 @@ Describe steps to reproduce the issue here, for example:
  - Game version: [e.g. 0.2.1a, see main menu]
 
 **Attachments**
-If applicable, attach a save file (zipped), screenshots, or log files to help us resolve the issue. You can find them in your Documents (`%userprofile%\Documents\Captain Of Industry\`). If your issue is severe, like a crash or rendering glitches, also include Unity logs from `%USERPROFILE%\AppData\LocalLow\Mafi Games\Captain of Industry\`. Thanks for taking your time writing this report!
+If applicable, attach a save file (zipped), screenshots, or log files to help us resolve the issue. You can find them in your Documents (`%USERPROFILE%/AppData/Roaming/Captain of Industry`). If your issue is severe, like a crash or rendering glitches, also include Unity logs from `%USERPROFILE%/AppData/LocalLow/Mafi Games/Captain of Industry`. Thanks for taking your time writing this report!
