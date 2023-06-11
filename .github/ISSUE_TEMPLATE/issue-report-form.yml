@@ -12,13 +12,6 @@ body:
     validations:
       required: true
   - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
-      description: 'What did you expect to happen?'
-    validations:
-      required: true
-  - type: textarea
     id: reproduction
     attributes:
       label: Reproduction steps
@@ -27,11 +20,25 @@ body:
         1. Load attached save '...'
         2. Do xxx '....'
         3. Strange thing happens '...'
+    validations:
+      required: true
   - type: input
     id: version
     attributes:
-      label: Game version
-      placeholder: v0.4.8
+      label: Game version and build number
+      placeholder: v0.4.8 b208
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - Windows
+        - GeForce NOW
+        - Linux
+        - Mac OS
+        - Other
     validations:
       required: true
   - type: textarea
@@ -39,7 +46,8 @@ body:
     attributes:
       label: Attachments
       description: |
-          If applicable, attach a save file (zipped), screenshots, or log files to help us resolve the issue.
-          Location on Windows: ```%USERPROFILE%/AppData/Roaming/Captain of Industry```. If your issue is severe, like a crash or rendering glitches, also include Unity logs from: ```%USERPROFILE%\AppData\LocalLow\Mafi Games\Captain of Industry\```.
-          Location on Linux: ```~/.steam/steam/steamapps/compatdata/1594320/pfx/drive_c/users/steamuser/Documents/Captain of Industry/Logs```. For more serious issues, please include Unity logs from: ```~/.steam/steam/steamapps/compatdata/1594320/pfx/drive_c/users/steamuser/AppData/LocalLow/Mafi Games/Captain of Industry```.
+          If applicable, attach a save file (zipped), screenshots, or log files.
+          Saves and logs can be found at: ```%USERPROFILE%/AppData/Roaming/Captain of Industry```.
+          On Linux, the ```%USERPROFILE%``` is usually ```~/.steam/steam/steamapps/compatdata/1594320/pfx/drive_c/users/steamuser/```.
+          If you are reporting a crash or hardware issue, also include Unity logs from ```%USERPROFILE%/AppData/LocalLow/Mafi Games/Captain of Industry/``` and ```%USERPROFILE%/AppData/Local/Temp/Mafi Games/Captain of Industry/Crashes``` (zipped).
       placeholder: Attach files by clicking this area to highlight it and then dragging files in.
