@@ -26,6 +26,7 @@ body:
     id: version
     attributes:
       label: Game version and build number
+      description: 'Find it in the main menu at the bottom right or in the in-game menu at the bottom below the Quit button.'
       placeholder: v0.4.8 b208
     validations:
       required: true
